@@ -4,7 +4,7 @@ select
   b.*
   from table1 as a
   left join table 2 as b 
-  on a.arn = b.arn;
+  on a.arn = b.arn and a.dc_dt = b.dc_dt;
   quit;
 
 these are the changes I made
