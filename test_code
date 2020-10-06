@@ -6,3 +6,5 @@ select
   left join table 2 as b 
   on a.arn = b.arn;
   quit;
+
+these are the changes I made
