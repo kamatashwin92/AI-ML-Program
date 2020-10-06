@@ -1,0 +1,8 @@
+creat table as
+select
+  a.*,
+  b.*
+  from table1 as a
+  left join table 2 as b 
+  on a.arn = b.arn;
+  quit;
